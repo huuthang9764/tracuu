@@ -52,14 +52,14 @@ body{
     align-items: center;
   }
 .live1{
-  margin-top: 10rem;
+  margin-top: rem;
   border-radius: 1rem 1rem;
 }
 .live2{
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .live3{
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 img{
   border-radius: 1rem 1rem;
