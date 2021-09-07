@@ -93,11 +93,11 @@ img{
 		width: 100%;
 
 	}
-	.specialized-container{
+	.Item{
 		display: block;
     margin-bottom: 60px;
 	}
-  .specialized__list{
+  .Item__list{
     width: 100%;
   }
   .live1{
