@@ -1,0 +1,145 @@
+#PT{
+ border: 2px solid #0000ff;
+ color: blue;
+ background-image: url(https://drive.google.com/file/d/1KS0DIR55fhi8PMlC7LduTyV4jGvF_sMR/view?usp=sharing) no-repeat center center;}
+ #TB_PT{
+   margin-top:30px;
+ }
+body{
+
+}
+
+.w3-animate-top{
+	position:relative;
+	animation:animatetop 1s
+	}
+	@keyframes animatetop{
+		from{
+			top:-300px;
+			opacity:0
+		} 
+		to{
+			top:0;
+			opacity:1
+		}
+	}
+
+.view-out{
+  height: 700px;
+  text-align: center;
+  
+  /*background-image: url(d21.jpg) ;*/
+  background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top;
+      -webkit-transition: 10s;
+      margin: 0;
+      padding: 0;
+}
+.header__top{
+  color: red;
+}
+.Item{
+  display: flex;
+  justify-content: center;
+
+  }
+
+ .Item__list{
+    width: 25%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+  }
+.live1{
+  margin-top: 10rem;
+  border-radius: 1rem 1rem;
+}
+.live2{
+  margin-top: 5rem;
+}
+.live3{
+  margin-top: 10rem;
+}
+img{
+  border-radius: 1rem 1rem;
+}
+#box-1{
+    height: 450px;
+    margin: auto;
+   display: block;
+   border: 1px solid black;
+   border-radius: 15px;
+}
+#box-2{
+    height: 450px;
+    margin: auto;
+   display: block;
+   border: 1px solid black;
+   border-radius: 15px;
+}
+#box-3{
+    height: 450px;
+    margin: auto;
+   display: block;
+   border: 1px solid black;
+   border-radius: 15px;
+}
+@media screen and (max-width:510px){
+  h1{
+    font-size: 30px;
+  }
+	.view-out{
+		width: 100%;
+
+	}
+	.Item{
+		display: block;
+    margin-bottom: 60px;
+	}
+  .Item__list{
+    width: 100%;
+  }
+  .live1{
+    margin-top:10px;
+  }
+  .live2{
+    margin-top:10px;
+  }
+  .live3{
+    margin-top:10px;
+  }
+  .form-row{
+    margin-top: 80px;
+    margin-left: 2px;
+  }
+}
+@media screen and (max-width:450px){
+  h1{
+    font-size: 25px;
+  }
+  .view-out{
+    width: 100%;
+
+  }
+  .Item{
+    display: block;
+    margin-bottom: 60px;
+  }
+  .Item__list{
+    width: 100%;
+  }
+  .live1{
+    margin-top:10px;
+  }
+  .live2{
+    margin-top:10px;
+  }
+  .live3{
+    margin-top:10px;
+  }
+  .form-row{
+    margin-top: 80px;
+    margin-left: 2px;
+  }
+}
